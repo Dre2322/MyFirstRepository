@@ -1,4 +1,4 @@
-stocks_dict = {
+stocks_dicts = {
   'AAL' : '44.56',
   'IBM' : '60.50',
   'ALF' : '55.78',
@@ -12,5 +12,5 @@ stocks_dict = {
 }
 
 x = input('Please enter your stock symbol: ')
-z = stocks_dict.get(x, 'Ticker symbol was not found')
+z = stocks_dicts.get(x, 'Ticker symbol was not found')
 print (x,':', z)
